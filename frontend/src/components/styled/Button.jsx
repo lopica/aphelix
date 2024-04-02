@@ -17,7 +17,6 @@ const LinkButton = styled.a`
     background-color: #099268;
   }
 `
-
 export default function Button({ children, ...props }) {
   return (
     <LinkButton {...props}>
